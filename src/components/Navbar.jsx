@@ -5,7 +5,7 @@ const menus = [
   { name: "Beranda", to: "/", type: "page" },
   { name: "Tentang Kami", to: "/tentang-kami", type: "page" },
   { name: "Peta Kawasan", to: "/peta-kawasan", type: "page" },
-  { name: "Fasilitas", to: "/#fasilitas", type: "section" },
+  { name: "Fasilitas", to: "/fasilitas", type: "page" },,
   { name: "Berita & Kontak", to: "/#berita", type: "section" },
 ];
 
@@ -13,7 +13,8 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   function renderMenu(menu) {
-    const className = "text-[11px] font-medium text-[#24483B] transition-colors hover:text-[#8BAF37]";
+    const className =
+  "text-sm font-bold text-[#24483B] transition-colors hover:text-[#8BAF37]"
 
     if (menu.type === "section") {
       return (
@@ -32,7 +33,7 @@ function Navbar() {
 
   return (
     <header className="relative z-50 w-full bg-[#F3F5EC]">
-      <nav className="mx-auto flex min-h-[80px] max-w-[1440px] items-center justify-between px-6 lg:px-16">
+      <nav className="mx-auto flex min-h-[90px] max-w-[1440px] items-center justify-between px-6 lg:px-16">
         <Link to="/" className="shrink-0">
           <h1 className="text-xl font-extrabold leading-none text-[#103F32]">AL AMIN</h1>
           <p className="mt-1 text-[8px] tracking-[1.5px] text-[#536C60]">SCIENCE TECHNO PARK</p>
@@ -42,7 +43,7 @@ function Navbar() {
 
         <a
           href="/#kunjungan"
-          className="hidden items-center gap-2 rounded-full bg-[#103F32] px-5 py-3 text-[11px] font-semibold text-white transition-colors hover:bg-[#24483B] sm:inline-flex"
+          className="hidden items-center gap-2 rounded-full bg-[#103F32] px-6 py-3.5 text-sm font-bold text-white transition-colors hover:bg-[#24483B] sm:inline-flex"
         >
           Rencanakan Kunjungan ↗
         </a>

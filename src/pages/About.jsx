@@ -7,7 +7,7 @@ function About() {
       <Navbar />
 
       {/* HERO TENTANG KAMI */}
-      <section className="max-w-[1440px] w-full mx-auto px-6 lg:px-16 pt-16 pb-20">
+      <section className="max-w-[1440px] w-full mx-auto px-6 lg:px-16 pt-3 pb-20">
         <div className="bg-[#103F32] rounded-2xl p-8 md:p-14 lg:p-20">
           <p className="text-[#D2F65C] text-xs font-bold tracking-[0.2em] mb-6">MENGENAL AL AMIN</p>
 

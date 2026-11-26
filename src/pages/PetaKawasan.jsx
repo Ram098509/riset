@@ -96,7 +96,7 @@ function PetaKawasan() {
       <Navbar />
 
       {/* HERO SLIDER */}
-      <section className="mx-auto max-w-[1440px] px-4 pt-8 lg:px-16 lg:pt-12">
+      <section className="mx-auto max-w-[1440px] px-4 pt-3 lg:px-16 lg:pt-5">
         <div className="relative h-[280px] overflow-hidden rounded-2xl bg-[#103F32] md:h-[350px] lg:h-[400px]">
           {/* FOTO SLIDE */}
           <img
