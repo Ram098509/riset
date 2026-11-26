@@ -5,9 +5,9 @@ const menus = [
   { name: "Beranda", to: "/", type: "page" },
   { name: "Tentang Kami", to: "/tentang-kami", type: "page" },
   { name: "Peta Kawasan", to: "/peta-kawasan", type: "page" },
-  { name: "Fasilitas", to: "/fasilitas", type: "page" },,
-  { name: "Berita & Kontak", to: "/#berita", type: "section" },
-];
+  { name: "Fasilitas", to: "/fasilitas", type: "page" },
+  { name: "Berita & Kontak", to: "/berita-kontak", type: "page" },
+]
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,10 +34,18 @@ function Navbar() {
   return (
     <header className="relative z-50 w-full bg-[#F3F5EC]">
       <nav className="mx-auto flex min-h-[90px] max-w-[1440px] items-center justify-between px-6 lg:px-16">
-        <Link to="/" className="shrink-0">
-          <h1 className="text-xl font-extrabold leading-none text-[#103F32]">AL AMIN</h1>
-          <p className="mt-1 text-[8px] tracking-[1.5px] text-[#536C60]">SCIENCE TECHNO PARK</p>
-        </Link>
+<Link to="/" className="flex shrink-0 items-center gap-3">
+  <img
+    src="/logo1.png"
+    alt="Logo Al Amin"
+    className="h-10 w-auto object-contain"
+  />
+  <img
+    src="/logo2.png"
+    alt="Logo Science Techno Park"
+    className="h-10 w-auto object-contain"
+  />
+</Link>
 
         <div className="hidden items-center gap-7 lg:flex xl:gap-9">{menus.map(renderMenu)}</div>
 

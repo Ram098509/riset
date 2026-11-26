@@ -9,15 +9,15 @@ function Hero() {
           <p className="text-[#C8F45A] text-[11px] font-bold tracking-wide mb-6">DUNIA BARU UNTUK DIJELAJAHI</p>
 
           <h1 className="text-white text-4xl md:text-5xl lg:text-[48px] leading-[1.3] font-bold max-w-[530px]">
-            Petualangan besar.
+            Virtual Tour Interaktif
             <br />
-            Dimulai dari
+            Kawasan Techno
             <br />
-            rasa ingin tahu.
+            Park Al-Amin
           </h1>
 
           <p className="text-[#D0DED6] text-sm mt-5 max-w-[400px] leading-relaxed">
-            Jelajahi AL Amin Science Techno Park. Temukan sains, alam, dan pengalaman seru dalam satu kawasan.
+            Pengalaman eksplorasi virtual interaktif berbasis Roblox untuk mengenal lebih dekat kawasan peternakan Al-Amin Science Techno Park.
           </p>
 
           <div className="flex items-center gap-5 mt-8 flex-wrap">
@@ -27,8 +27,6 @@ function Hero() {
             >
               Jelajahi kawasan ↗
             </a>
-
-            <span className="text-white text-[10px]">09 zona · 01 petualangan</span>
           </div>
         </div>
 
